@@ -6,8 +6,18 @@
  * */
 package definitions;
 
+import java.lang.reflect.Constructor;
+
 public class Library {
     private Book[] booksCurrentlyAvailable;
+
+    public Book[] getBooksCurrentlyAvailable() {
+        return booksCurrentlyAvailable;
+    }
+
+    public void setBooksCurrentlyAvailable(Book[] booksCurrentlyAvailable) {
+        this.booksCurrentlyAvailable = booksCurrentlyAvailable;
+    }
 
 
 }

@@ -45,11 +45,15 @@ public class Student {
         this.universityRollNumber = universityRollNumber;
     }
 
-    public void Student(String nameOfStudent,int numberOfBookIssued,long universityRollNumber,Book[] namesOfBookIssued){
+    public Student(String nameOfStudent,int numberOfBookIssued,long universityRollNumber,Book[] namesOfBookIssued){
         this.nameOfStudent=nameOfStudent;
         this.namesOfBookIssued=namesOfBookIssued;
         this.numberOfBookIssued=numberOfBookIssued;
         this.universityRollNumber=universityRollNumber;
     }
+    public String toString(){
+       return nameOfStudent+","+namesOfBookIssued+","+numberOfBookIssued+","+universityRollNumber;
+    }
+
 
 }

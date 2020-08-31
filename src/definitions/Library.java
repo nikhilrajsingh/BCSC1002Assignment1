@@ -19,5 +19,9 @@ public class Library {
         this.booksCurrentlyAvailable = booksCurrentlyAvailable;
     }
 
+    public Library(Book[] booksCurrentlyAvailable){
+        this.booksCurrentlyAvailable=booksCurrentlyAvailable;
+    }
+
 
 }
